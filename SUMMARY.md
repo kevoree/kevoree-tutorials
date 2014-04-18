@@ -11,7 +11,7 @@
 * [Make your own components](level1/Make your own components.md)
     * [Setting up your environment](level1/Setting up your environment.md)
     * [Compile with Maven](level1/Compile with Maven.md)
-    * [What did we do?](level1/What did we do?.md)
+    * [What did we do?](level1/What did we do.md)
     * [Port with Callback](level1/Port with Callback.md)
     * [Do It Yourself](level1/Do It Yourself.md)
 * [Make your own adaptions](level2/README.md)
