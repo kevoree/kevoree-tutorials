@@ -15,6 +15,9 @@
     * [Port with Callback](level1/Port with Callback.md)
     * [Do It Yourself](level1/Do It Yourself.md)
 * [Make your own adaptions](level2/README.md)
+    * [First KevScript](level2/kevscript.md)
+    * [Boot2Kevs](level2/boot2kevs.md)
+    * [First adaptation](level2/adaptation.md)
 * [Reactive self-healing systems](level3/README.md)
 * [Cloud management](level4/README.md)
 
