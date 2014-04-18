@@ -21,5 +21,7 @@
 * [Reactive self-healing systems](level3/Reactive self-healing systems.md)
     * [Breakdown alone component](level3/Breakdown alone component.md)
     * [WebServer Scaler](level3/WebServer Scaler.md)
-* [Cloud management](level4/README.md)
+* [Cloud and reactive elasticity](level4/Cloud and reactive elasticity.md)
+    * [Cloud nodes](level4/Cloud nodes.md)
+    * [Step 2](level4/Step 2.md)
 
