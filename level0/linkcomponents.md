@@ -9,4 +9,4 @@ Now, what you write in one console, arrives in the other.
 Congratulation. You just deployed your first application using Model@Runtime. If you want to check that the model is really available at runtime, close your editor, launch it again and open the model from the node. You’ll get the same model as you sent the last time.    
 
 [Figure 4: Adding two channels](id:fig-consoles)
-<img src="img/communications.png" width="80%"/>
+<img src="https://raw.githubusercontent.com/kevoree/kevoree-tutorials/master/level0/img/communications.png" width="80%"/>

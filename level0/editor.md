@@ -13,4 +13,4 @@ In the editor, save the model in XMI then in JSON format, and have a look at the
 Ok, you’re ready to create your chat application.
 
 [Figure 2: The Kevoree Java Editor](id:fig-runtime)
-<img src="img/editor.png" width="80%"/>
+<img src="https://raw.githubusercontent.com/kevoree/kevoree-tutorials/master/level0/img/editor.png" width="80%"/>

@@ -8,4 +8,4 @@ All right, the runtime is ready, let launch an `Editor` !
 
 [Figure 1: The Kevoree Java Runtime](id:fig-runtime)
 
-<img src="img/runtime.png" width="80%"/>
+<img src="https://raw.githubusercontent.com/kevoree/kevoree-tutorials/master/level0/img/runtime.png" width="80%"/>
