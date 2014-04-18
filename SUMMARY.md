@@ -18,6 +18,8 @@
     * [First KevScript](level2/kevscript.md)
     * [Boot2Kevs](level2/boot2kevs.md)
     * [First adaptation](level2/adaptation.md)
-* [Reactive self-healing systems](level3/README.md)
+* [Reactive self-healing systems](level3/Reactive self-healing systems.md)
+    * [Breakdown alone component](level3/Breakdown alone component.md)
+    * [WebServer Scaler](level3/WebServer Scaler.md)
 * [Cloud management](level4/README.md)
 
