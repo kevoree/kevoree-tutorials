@@ -2,7 +2,7 @@
 This step shows you how to write a component able to trigger an adaptation of the system by himself. For this purpose, the idea is to create a BreakdownAlone component that suppresses himself if no message is received within a give delay.    
 In order to realize this step, setup your environment as in *Practice 1*: a runtime, an editor and you prefered IDE. In addition, you also need the code of the **Breakdown** that you can  find in the Kevoree-samples Github repository.
 
-> [Kevoree Samples >](https://github.com/kevoree/kevoree-samples)
+[Kevoree Samples](https://github.com/kevoree/kevoree-samples)
 
 ### Understanding the assembly
 
@@ -10,7 +10,7 @@ First of all open the Breakdown sample project in your IDE.
 
 To check everything is fine, we first compile the project, and lauch it using the Kevoree Runner embedded in the Kevoree Plugin. This runner reads the bootstrap configuration from a file that must be located at `src/main/kevs/main.kevs`. 
 
->Open a terminal
+Open a terminal
 ***************
 ```
 cd Breakdown
