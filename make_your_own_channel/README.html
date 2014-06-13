@@ -1,0 +1,649 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="../manifest.appcache">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Make your own channel | Learn Kevoree</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 0.5.2">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <meta name="author" content="kevoree">
+    
+    
+    
+    <link rel="prev" href="../cloud_and_reactive_elasticity/elasticity.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book" data-github="kevoree/kevoree-tutorials" data-level="7" data-basepath=".." data-revision="1402680792236">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    
+    <a href="https://github.com/kevoree/kevoree-tutorials" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
+
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
+
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+    <a href="https://github.com/kevoree/kevoree-tutorials/stargazers" target="_blank" class="btn pull-right count-star hidden-xs"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/kevoree/kevoree-tutorials/watchers" target="_blank" class="btn pull-right count-watch hidden-xs"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="../" >Learn Kevoree</a>
+    </h1>
+</div>
+
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        <li>
+            <a href="https://github.com/kevoree" target="blank" class="author-link">About the author</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/kevoree/kevoree-tutorials/issues" target="blank"class="issues-link">Questions and Issues</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/kevoree/kevoree-tutorials/edit/master/make_your_own_channel/README.md" target="blank" class="contribute-link">Edit and Contribute</a>
+        </li>
+        
+
+        
+        <li class="divider"></li>
+        
+
+        <li data-level="0" data-path="index.html">
+            <a href="../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+    
+        <li class="chapter " data-level="1" data-path="kevoree_for_the_impatient/README.html">
+            
+            <a href="../kevoree_for_the_impatient/README.html">
+                <i class="fa fa-check"></i> <b>1.</b> Kevoree for the impatient
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="kevoree_environement/README.html">
+            
+            <a href="../kevoree_environement/README.html">
+                <i class="fa fa-check"></i> <b>2.</b> Kevoree environement
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="kevoree_environement/set_up.html">
+            
+            <a href="../kevoree_environement/set_up.html">
+                <i class="fa fa-check"></i> <b>2.1.</b> Set up
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="kevoree_environement/start_the_runtime.html">
+            
+            <a href="../kevoree_environement/start_the_runtime.html">
+                <i class="fa fa-check"></i> <b>2.2.</b> Start the runtime
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="kevoree_environement/start_the_editor.html">
+            
+            <a href="../kevoree_environement/start_the_editor.html">
+                <i class="fa fa-check"></i> <b>2.3.</b> Start the editor
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="kevoree_environement/current_model.html">
+            
+            <a href="../kevoree_environement/current_model.html">
+                <i class="fa fa-check"></i> <b>2.4.</b> Current Model
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="kevoree_environement/create_instances.html">
+            
+            <a href="../kevoree_environement/create_instances.html">
+                <i class="fa fa-check"></i> <b>2.5.</b> Create instances
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="kevoree_environement/link_components.html">
+            
+            <a href="../kevoree_environement/link_components.html">
+                <i class="fa fa-check"></i> <b>2.6.</b> Link components
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="kevoree_environement/using_different_channels.html">
+            
+            <a href="../kevoree_environement/using_different_channels.html">
+                <i class="fa fa-check"></i> <b>2.7.</b> Using different channels
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="make_your_own_components/README.html">
+            
+            <a href="../make_your_own_components/README.html">
+                <i class="fa fa-check"></i> <b>3.</b> Make your own components
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="make_your_own_components/set_up_developement_environement.html">
+            
+            <a href="../make_your_own_components/set_up_developement_environement.html">
+                <i class="fa fa-check"></i> <b>3.1.</b> Set up developement environement
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="make_your_own_components/compile_with_maven.html">
+            
+            <a href="../make_your_own_components/compile_with_maven.html">
+                <i class="fa fa-check"></i> <b>3.2.</b> Compile with Maven
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="make_your_own_components/what_did_we_do.html">
+            
+            <a href="../make_your_own_components/what_did_we_do.html">
+                <i class="fa fa-check"></i> <b>3.3.</b> What did we do?
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="make_your_own_components/port_with_callback.html">
+            
+            <a href="../make_your_own_components/port_with_callback.html">
+                <i class="fa fa-check"></i> <b>3.4.</b> Port with Callback
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="make_your_own_components/do_it_yourself.html">
+            
+            <a href="../make_your_own_components/do_it_yourself.html">
+                <i class="fa fa-check"></i> <b>3.5.</b> Do It Yourself
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="make_your_own_adaptations/README.html">
+            
+            <a href="../make_your_own_adaptations/README.html">
+                <i class="fa fa-check"></i> <b>4.</b> Make your own adaptations
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="make_your_own_adaptations/first_kevscript.html">
+            
+            <a href="../make_your_own_adaptations/first_kevscript.html">
+                <i class="fa fa-check"></i> <b>4.1.</b> First KevScript
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="make_your_own_adaptations/boot2kevs.html">
+            
+            <a href="../make_your_own_adaptations/boot2kevs.html">
+                <i class="fa fa-check"></i> <b>4.2.</b> Boot2Kevs
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="make_your_own_adaptations/first_adaptation.html">
+            
+            <a href="../make_your_own_adaptations/first_adaptation.html">
+                <i class="fa fa-check"></i> <b>4.3.</b> First adaptation
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="reactive_self-healing_systems/README.html">
+            
+            <a href="../reactive_self-healing_systems/README.html">
+                <i class="fa fa-check"></i> <b>5.</b> Reactive self-healing systems
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="reactive_self-healing_systems/breakdown_alone.html">
+            
+            <a href="../reactive_self-healing_systems/breakdown_alone.html">
+                <i class="fa fa-check"></i> <b>5.1.</b> Breakdown alone
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="reactive_self-healing_systems/webserver_scaler.html">
+            
+            <a href="../reactive_self-healing_systems/webserver_scaler.html">
+                <i class="fa fa-check"></i> <b>5.2.</b> WebServer Scaler
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="cloud_and_reactive_elasticity/README.html">
+            
+            <a href="../cloud_and_reactive_elasticity/README.html">
+                <i class="fa fa-check"></i> <b>6.</b> Cloud and reactive elasticity
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="cloud_and_reactive_elasticity/cloud_nodes.html">
+            
+            <a href="../cloud_and_reactive_elasticity/cloud_nodes.html">
+                <i class="fa fa-check"></i> <b>6.1.</b> Cloud nodes
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="cloud_and_reactive_elasticity/elasticity.html">
+            
+            <a href="../cloud_and_reactive_elasticity/elasticity.html">
+                <i class="fa fa-check"></i> <b>6.2.</b> Elasticity
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="make_your_own_channel/README.html">
+            
+            <a href="../make_your_own_channel/README.html">
+                <i class="fa fa-check"></i> <b>7.</b> Make your own channel
+            </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 100%;min-width: 96.15384615384616%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../kevoree_for_the_impatient/README.html" title="Kevoree for the impatient" class="chapter done new-chapter" data-progress="1" style="left: 3.8461538461538463%;"></a>
+    
+        <a href="../kevoree_environement/README.html" title="Kevoree environement" class="chapter done new-chapter" data-progress="2" style="left: 7.6923076923076925%;"></a>
+    
+        <a href="../kevoree_environement/set_up.html" title="Set up" class="chapter done " data-progress="2.1" style="left: 11.538461538461538%;"></a>
+    
+        <a href="../kevoree_environement/start_the_runtime.html" title="Start the runtime" class="chapter done " data-progress="2.2" style="left: 15.384615384615385%;"></a>
+    
+        <a href="../kevoree_environement/start_the_editor.html" title="Start the editor" class="chapter done " data-progress="2.3" style="left: 19.23076923076923%;"></a>
+    
+        <a href="../kevoree_environement/current_model.html" title="Current Model" class="chapter done " data-progress="2.4" style="left: 23.076923076923077%;"></a>
+    
+        <a href="../kevoree_environement/create_instances.html" title="Create instances" class="chapter done " data-progress="2.5" style="left: 26.923076923076923%;"></a>
+    
+        <a href="../kevoree_environement/link_components.html" title="Link components" class="chapter done " data-progress="2.6" style="left: 30.76923076923077%;"></a>
+    
+        <a href="../kevoree_environement/using_different_channels.html" title="Using different channels" class="chapter done " data-progress="2.7" style="left: 34.61538461538461%;"></a>
+    
+        <a href="../make_your_own_components/README.html" title="Make your own components" class="chapter done new-chapter" data-progress="3" style="left: 38.46153846153846%;"></a>
+    
+        <a href="../make_your_own_components/set_up_developement_environement.html" title="Set up developement environement" class="chapter done " data-progress="3.1" style="left: 42.30769230769231%;"></a>
+    
+        <a href="../make_your_own_components/compile_with_maven.html" title="Compile with Maven" class="chapter done " data-progress="3.2" style="left: 46.15384615384615%;"></a>
+    
+        <a href="../make_your_own_components/what_did_we_do.html" title="What did we do?" class="chapter done " data-progress="3.3" style="left: 50%;"></a>
+    
+        <a href="../make_your_own_components/port_with_callback.html" title="Port with Callback" class="chapter done " data-progress="3.4" style="left: 53.84615384615385%;"></a>
+    
+        <a href="../make_your_own_components/do_it_yourself.html" title="Do It Yourself" class="chapter done " data-progress="3.5" style="left: 57.69230769230769%;"></a>
+    
+        <a href="../make_your_own_adaptations/README.html" title="Make your own adaptations" class="chapter done new-chapter" data-progress="4" style="left: 61.53846153846154%;"></a>
+    
+        <a href="../make_your_own_adaptations/first_kevscript.html" title="First KevScript" class="chapter done " data-progress="4.1" style="left: 65.38461538461539%;"></a>
+    
+        <a href="../make_your_own_adaptations/boot2kevs.html" title="Boot2Kevs" class="chapter done " data-progress="4.2" style="left: 69.23076923076923%;"></a>
+    
+        <a href="../make_your_own_adaptations/first_adaptation.html" title="First adaptation" class="chapter done " data-progress="4.3" style="left: 73.07692307692308%;"></a>
+    
+        <a href="../reactive_self-healing_systems/README.html" title="Reactive self-healing systems" class="chapter done new-chapter" data-progress="5" style="left: 76.92307692307692%;"></a>
+    
+        <a href="../reactive_self-healing_systems/breakdown_alone.html" title="Breakdown alone" class="chapter done " data-progress="5.1" style="left: 80.76923076923077%;"></a>
+    
+        <a href="../reactive_self-healing_systems/webserver_scaler.html" title="WebServer Scaler" class="chapter done " data-progress="5.2" style="left: 84.61538461538461%;"></a>
+    
+        <a href="../cloud_and_reactive_elasticity/README.html" title="Cloud and reactive elasticity" class="chapter done new-chapter" data-progress="6" style="left: 88.46153846153847%;"></a>
+    
+        <a href="../cloud_and_reactive_elasticity/cloud_nodes.html" title="Cloud nodes" class="chapter done " data-progress="6.1" style="left: 92.3076923076923%;"></a>
+    
+        <a href="../cloud_and_reactive_elasticity/elasticity.html" title="Elasticity" class="chapter done " data-progress="6.2" style="left: 96.15384615384616%;"></a>
+    
+        <a href="../make_your_own_channel/README.html" title="Make your own channel" class="chapter done new-chapter" data-progress="7" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_19">
+                    
+                        <h1 id="make-your-own-channel">Make your own channel</h1>
+<h3 id="objectives">Objectives</h3>
+<p>This practice aims at making you familiar with the Kevoree compilation chain and the Design of new Channel. To this end, you will make use of the Kevoree Maven plugin to compile a sample  channel. We suppose that you already do the <a href="http://kevoree.org/practices/level0/" target="_blank">level 0</a> and <a href="http://kevoree.org/practices/level1/" target="_blank">level 1</a>.</p>
+<h3 id="setting-up-your-environment">Setting up your environment</h3>
+<p>First of all, you need to have a <code>JRE 1.7</code> at least.
+Make sure you have a running installation of <a href="http://maven.apache.org/download.cgi" target="_blank">Apache Maven 3</a> installed. Check it out by opening a console and typing <code>mvn -version</code>. Otherwise follow the Apache instructions.
+For the Java development, we would suggest using <a href="http://www.jetbrains.com/idea/download/index.html" target="_blank">IntelliJ</a> or <a href="https://eclipse.org" target="_blank">Eclipse</a>, because we provide now plugin for these IDEs.  (See here to install the <a href="https://github.com/kevoree/kevoree-eclipse-plugin/" target="_blank">eclipse plugin</a>)</p>
+<blockquote>
+<p><a href="http://maven.apache.org/download.cgi" target="_blank">Apache Maven 3 &gt;</a></p>
+</blockquote>
+<h2 id="create-a-new-kevoree-project">Create a new Kevoree project</h2>
+<p>From your IDE,  File -&gt; new Kevoree project
+Create a new Kevoree Channel,  File -&gt; new Kevoree channel (Choose a Name and a Java Package for your example) for Example MyFirstChannel</p>
+<h2 id="compile-with-maven">Compile with Maven</h2>
+<p>Check your Internet connection is on. On its first launch, Maven may need to download several plugins and artifacts from the Internet. It looks like it downloads the entire world... that’s true, but don’t worry, this world is finite,.. more or less.
+Open a terminal, cd into the unzipped folder, and launch the installation of the artifact on the local repository of the system: mvn install.
+On the first launch, it may take up to 3 minutes (according to the load of the network). The mvn install command first executes the Kevoree Annotation Plugin. Basically, this plugin
+extracts models of components/channels/groups from their source code. Then, the code is compiled and packaged in a Jar.
+The outcome of this command can be found under the target folder created in the same folder as the pom file.
+In this folder, you can find the generated classes, the model extracted from your components (generated-sources/kevoree/KEV-INF/lib.kev). Both the model and compiled classes has been packaged in the Jar file at the root of the target folder.
+Also a copy of this Jar has been placed in your local Maven repository (usually user.home/.m2/repository).</p>
+<blockquote>
+<p>In a console</p>
+<hr>
+<pre><code>cd yourprojectName
+mvn install
+</code></pre></blockquote>
+<h2 id="what-did-we-do-">What did we do?</h2>
+<p>Now it is time to go a bit deeper in the code.</p>
+<h3 id="the-channels">The channels</h3>
+<p>Have a look in the <code>src/main/java</code> folder. Here is the code of the channel we just compiled.</p>
+<pre><code>package org.kevoree;
+
+
+import org.kevoree.annotation.KevoreeInject;
+import org.kevoree.annotation.Library;
+import org.kevoree.annotation.ChannelType;
+import org.kevoree.api.Callback;
+import org.kevoree.api.ChannelContext;
+import org.kevoree.api.ChannelDispatch;
+import org.kevoree.api.Port;
+
+@ChannelType
+@Library(name = &quot;Java&quot;)
+public class MyFirstChannel implements ChannelDispatch {
+
+    @KevoreeInject
+    ChannelContext channelContext;
+
+    @Override
+    public void dispatch(final Object payload, final Callback callback) {
+        for (Port p : channelContext.getLocalPorts()) {
+            p.call(payload, callback);
+        }
+    }
+}
+</code></pre><p>The channel context gives you access to the model. The dispatch method is called automatically when a message is received by one of the channel fragment. You must have in mind that this channel is instantiated for any node on which bound component are deployed.</p>
+<h3 id="the-pom">The POM</h3>
+<p>Open now the pom.xml file. This file is the configuration file for Maven executions.
+At top, the Identity section provides information about the group, unique name, display name and version of the artifact.</p>
+<p>This POM declares two dependencies, mainly the Kevoree Annotation API (for component specification) and Kevoree API (for model manipulation).
+The Build section specify which plugins must be executed at which phase of the compilation process. The Kevoree Annotation plugin registers to the <em>prepare-package</em> phase of the maven process, and will execute its <em>generate</em> goal during this phase. This goal extracts the Kevoree artefact (channel, component groups)’ model and places it into a proper location for it to be embedded within the Jar file.</p>
+<pre><code>        &lt;dependency&gt;
+            &lt;groupId&gt;org.kevoree&lt;/groupId&gt;
+            &lt;artifactId&gt;org.kevoree.annotation.api&lt;/artifactId&gt;
+            &lt;version&gt;${kevoree.version}&lt;/version&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.kevoree&lt;/groupId&gt;
+            &lt;artifactId&gt;org.kevoree.api&lt;/artifactId&gt;
+            &lt;version&gt;${kevoree.version}&lt;/version&gt;
+        &lt;/dependency&gt;
+....
+    &lt;build&gt;
+        &lt;plugins&gt;
+              &lt;plugin&gt;
+                &lt;groupId&gt;org.kevoree.tools&lt;/groupId&gt;
+                &lt;artifactId&gt;org.kevoree.tools.mavenplugin&lt;/artifactId&gt;
+                &lt;version&gt;${kevoree.version}&lt;/version&gt;
+                &lt;extensions&gt;true&lt;/extensions&gt;
+                &lt;executions&gt;
+                    &lt;execution&gt;
+                        &lt;goals&gt;
+                            &lt;goal&gt;generate&lt;/goal&gt;
+                        &lt;/goals&gt;
+                    &lt;/execution&gt;
+                &lt;/executions&gt;
+                &lt;configuration&gt;
+                    &lt;nodename&gt;node0&lt;/nodename&gt;
+                    &lt;model&gt;src/main/kevs/main.kevs&lt;/model&gt;
+                &lt;/configuration&gt;
+            &lt;/plugin&gt;
+        &lt;plugin&gt;
+            &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
+            &lt;version&gt;3.0&lt;/version&gt;
+            &lt;configuration&gt;
+                &lt;source&gt;1.5&lt;/source&gt;
+                &lt;target&gt;1.5&lt;/target&gt;
+            &lt;/configuration&gt;
+        &lt;/plugin&gt;
+        &lt;/plugins&gt;
+    &lt;/build&gt;
+</code></pre><h3 id="run-it-">Run it !</h3>
+<p>Launch a runtime, and open an editor.
+Open the model from the runtime you just launched, and add the <em>Toy</em> library.
+Import your channel in the editor: <code>Model / Load Library</code> and select the Jar file that have been created in the <em>target</em> folder or the Sample Project.
+You should now see the your channel. Deploy one instance of each, and connect then together with a channel.
+Push to the node(runtime).</p>
+<p>This first channel is synchronized and not distributed.</p>
+<h2 id="do-it-yourself-easy-">Do It Yourself  (easy)</h2>
+<p>Now, you have in hands all you need to make your own channels.
+Try to build a first asynchronous channel. Create a new Channel in your IDE.</p>
+<p>The first idea is to ensure that a call to a channel does not block the caller component behavior.</p>
+<p>We propose to build an Asynchronous channel. Create a new channel. This channel must create a thread when it receives the dispatch call.</p>
+<pre><code>...
+   ExecutorService executor = null;
+   @Start
+    public void start() {
+        executor = Executors.newSingleThreadExecutor();
+    }
+    public void dispatch(final Object payload,final Callback callback) {
+        executor.submit(new Runnable() {
+            @Override
+            public void run() {
+                for (Port p : channelContext.getLocalPorts()) {
+                        p.call(payload,callback);
+                    }
+                }
+            }
+        });
+    }
+</code></pre><p>Compile it and try it within the editor.</p>
+<h2 id="do-it-yourself-autonomous-">Do It Yourself (autonomous)</h2>
+<p>Build a third channel which is a simple distributed channel that JSON RPC.</p>
+<p>You can be inspired by <a href="https://github.com/kevoree/kevoree-library/blob/master/java/org.kevoree.library.java.hazelcast/src/main/java/org/kevoree/library/java/hazelcast/DistributedBroadcast.java" target="_blank">https://github.com/kevoree/kevoree-library/blob/master/java/org.kevoree.library.java.hazelcast/src/main/java/org/kevoree/library/java/hazelcast/DistributedBroadcast.java</a></p>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../cloud_and_reactive_elasticity/elasticity.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Elasticity"><i class="fa fa-angle-left"></i></a>
+        
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
