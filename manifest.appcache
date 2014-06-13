@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Revision 1402682249042
+# Revision 1402684092296
 
 CACHE:
 kevoree_for_the_impatient/README.html
@@ -15,8 +15,8 @@ kevoree_environement/set_up.html
 kevoree_environement/start_the_editor.html
 kevoree_environement/start_the_runtime.html
 kevoree_environement/using_different_channels.html
-make_your_own_adaptations/boot2kevs.html
 make_your_own_adaptations/README.html
+make_your_own_adaptations/boot2kevs.html
 make_your_own_adaptations/first_adaptation.html
 make_your_own_adaptations/first_kevscript.html
 make_your_own_channel/README.html
