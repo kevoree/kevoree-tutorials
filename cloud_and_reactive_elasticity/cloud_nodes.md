@@ -12,7 +12,7 @@ First of all, start the runtime of your choice. Then open a Kevoree Editor an lo
 Your model should look like the following picture.
 
  [Figure 1: The Kevoree Cloud web frontend](id:fig-runtime)
- <img src="https://raw.githubusercontent.com/kevoree/kevoree-tutorials/master/level4/img/cloudFrontend.png" width="100%"/>
+ <img src="img/cloudFrontend.png" width="100%"/>
 
 You should see a message : `Update sucessfully completed` in your runtime.
 

@@ -7,4 +7,4 @@ These consoles are functional (you can type in text), but connected to nothing, 
 Come back in the Editor, and change the names of the consoles’ instances in their properties window (click on the instance).
 
 [Figure 3: Adding two consoles](id:fig-consoles)
-<img src="https://raw.githubusercontent.com/kevoree/kevoree-tutorials/master/level0/img/consoles.png" width="80%"/>
+<img src="consoles.png" width="80%"/>

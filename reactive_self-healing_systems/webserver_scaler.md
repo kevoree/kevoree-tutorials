@@ -31,7 +31,7 @@ As a second step you can try the dynamic content update
 * Bind the ticker port and input port of both new component to channel, your model should look like the figure 1.
 
 > [Figure 1: Kevoree Web servers first toys](id:fig-webtoys)
-> <img src="https://raw.githubusercontent.com/kevoree/kevoree-tutorials/master/level3/img/webtoys.png" width="100%"/>
+> <img src="img/webtoys.png" width="100%"/>
 
 * Push your model
 * Open a browser an naviguate `http://localhost:8081` , you normally observe a web page displaying the content of the data pushed by the ticker. This illustrates how we use Kevoree to display data from sensors for instance.
