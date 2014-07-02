@@ -10,7 +10,7 @@ Then browse to the [Kevoree Samples Repository](https://github.com/kevoree/kevor
 | Resource | Location |
 | -- | -- |
 | Apache Maven 3 | [http://maven.apache.org/download.cgi](http://maven.apache.org/download.cgi) |
-| Sample Project | [https://github.com/kevoree/kevoree-samples/releases](https://github.com/kevoree/kevoree-samples/releases) |
+| Sample Project | [https://github.com/kevoree/kevoree-samples/releases](https://github.com/kevoree/kevoree-samples) |
 
 | Editors | Location |
 | -- | -- |
